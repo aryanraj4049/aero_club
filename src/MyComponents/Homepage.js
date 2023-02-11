@@ -1,5 +1,9 @@
 import React from 'react'
 import '../MyCSS/Homepage.css'
+import React from 'react';
+import CloseButton from 'react-bootstrap/CloseButton';
+import  { Link } from "react-router-dom";
+import { Navbar, Nav, Container,Button} from 'react-bootstrap';
 export default function Homepage(props) {
   return (
     <div className='homepage' style={{ 
