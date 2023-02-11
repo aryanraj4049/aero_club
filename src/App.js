@@ -74,11 +74,11 @@ function App() {
       <Router>
         <div>
           <Header iitk={iitk} snt={snt} aero={aero} />
-          <Switch>
-            <Route exact path='/'>
-              <Homepage bg={bg} bg2={bg2} bgvideo={bgvideo} />
+                <Homepage bg={bg} bg2={bg2} bgvideo={bgvideo} />
               <About bgvideo={bgvideo} />
               <Glance slide1={slide1} slide2={slide2} slide3={slide3} />
+          <Switch>
+            <Route exact path='/'>
             </Route>
             <Route path='/projects'>
               <Project bgvideo={bgvideo} balsa={balsa} />
